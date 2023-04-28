@@ -2,12 +2,12 @@
 # Ubuntu包管理器
 Ubuntu包管理器有：apt, apt-cache, apt-get, dpkg
 ```bash
-apt-get update						#更新包管理器
-apt-cache search <你要查找的name> 	#模糊查询软件
-apt-get install <你要安装的软件包>	#安装软件
-apt-get source <你要下载的源代码包名>	#下载软件源码
-apt-get remove packagename			#卸载软件
-dpkg -l								#查看已安装的软件包
+apt-get update  #更新包管理器
+apt-cache search <你要查找的name>   #模糊查询软件
+apt-get install <你要安装的软件包>  #安装软件
+apt-get source <你要下载的源代码包名>   #下载软件源码
+apt-get remove packagename  #卸载软件
+dpkg -l #查看已安装的软件包
 ```
 # Ubuntu防火墙
 Ubuntu防火墙是ufw
