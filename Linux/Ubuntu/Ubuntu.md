@@ -1,7 +1,7 @@
 @[TOC](Ubuntu小知识)
 # Ubuntu包管理器
 Ubuntu包管理器有：apt, apt-cache, apt-get, dpkg
-```
+```bash
 apt-get update						#更新包管理器
 apt-cache search <你要查找的name> 	#模糊查询软件
 apt-get install <你要安装的软件包>	#安装软件
@@ -11,7 +11,7 @@ dpkg -l								#查看已安装的软件包
 ```
 # Ubuntu防火墙
 Ubuntu防火墙是ufw
-```
+```bash
 ufw status			#防火墙状态
 ufw enable			#开启防火墙
 ufw disable			#关闭防火墙
@@ -28,6 +28,6 @@ ufw status 				#展示已有防火墙规则
 文章收录：[Ubuntu 安装JDK18](https://blog.csdn.net/zynaln/article/details/124369473?ops_request_misc=&request_id=&biz_id=102&utm_term=ubuntu%E5%AE%89%E8%A3%85jdk18&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124369473.142^v11^control,157^v13^new_style1&spm=1018.2226.3001.4187)
 # Ubuntu切换到root
 
-```
+```bash
 sudo passwd root
 ```
