@@ -1,4 +1,3 @@
-@[TOC](Ubuntu小知识)
 # Ubuntu包管理器
 Ubuntu包管理器有：apt, apt-cache, apt-get, dpkg
 ```bash
