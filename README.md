@@ -1,4 +1,7 @@
-# blog-markdown
+# wliafe的博客
+
+![wliafe头像](wliafe.jpg)
 
 #### 介绍
-博客markdown文件仓库
+
+wliafe的博客，欢迎光临
