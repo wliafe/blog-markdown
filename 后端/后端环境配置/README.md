@@ -81,14 +81,16 @@ apt install redis-server
 
 修改配置文件/etc/redis/redis.conf
 
-设置redis端口，redis默认端口为6379
+设置redis端口，redis默认端口为6379，可根据需要修改
 
 ![redis端口](1.png)
 
-设置redis密码
+设置redis密码，在配置文件中添加 requirepass Redis.123
 
 ![redis密码](2.png)
 
-设置redis远程连接
+设置redis远程连接，注释掉 # bind 127.0.0.1
 
 ![redis远程连接](3.png)
+
+最后要重启redis才能生效
