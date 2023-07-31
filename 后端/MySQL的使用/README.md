@@ -1,6 +1,4 @@
-# MySQL使用方法
-
-## 常用数据库命令
+# 常用数据库命令
 
 ```sql
 #展示所有数据库
@@ -15,7 +13,7 @@ desc ${table_name};
 
 更多数据库命令，可以参考：[MySQL 有这一篇就够（呕心狂敲37k字，只为博君一点赞！！！）](https://blog.csdn.net/weixin_45851945/article/details/114287877)
 
-## mysql数据库导入查询
+# mysql数据库导入查询
 
 ```sql
 #选择数据库

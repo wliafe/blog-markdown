@@ -1,22 +1,20 @@
-# 机器学习PyTorch环境配置
+# Windows环境
 
-## Windows环境
-
-### 下载Miniconda
+## 下载Miniconda
 
 从[Conda官网](https://docs.conda.io/en/latest/miniconda.html#windows-installers)下载合适的Miniconda环境，然后安装环境。
 
-### 利用pycharm启动Miniconda环境
+## 利用pycharm启动Miniconda环境
 
 ![在pycharm中启动Miniconda环境](1.png)
 
-### 安装基本工具
+## 安装基本工具
 
 ```bash
 pip install jupyter torch torchvision
 ```
 
-### Windows启动jupyter脚本
+## Windows启动jupyter脚本
 
 创建文本文件，将下述脚本复制进去，改为start_jupyter.bat文件,双击即可启动jupyter记事本
 
@@ -43,21 +41,23 @@ start "" "%conda_path%\Scripts\jupyter-notebook.exe"
 call conda deactivate
 ```
 
-## Linux环境
+# Linux环境
+
+## 简介
 
 我用的是Ubuntu环境
 
-### 机器学习Linux环境shell脚本
+## 机器学习Linux环境shell脚本
 
 为方便配置Linux环境，我编写了一个shell脚本，脚本仓库为[pytorch-environment](https://gitee.com/wliafe/pytorch-environment.git)
 
-### 安装python3
+## 安装python3
 
 ```bash
 apt install python3.10
 ```
 
-### 安装Miniconda
+## 安装Miniconda
 
 从[Conda官网](https://docs.conda.io/en/latest/miniconda.html#linux-installers)获取网址
 
@@ -69,7 +69,7 @@ apt install python3.10
 wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.5.2-0-Linux-x86_64.sh
 ```
 
-### 安装基本工具
+## 安装基本工具
 
 ```bash
 pip install jupyter torch torchvision

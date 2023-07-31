@@ -1,6 +1,4 @@
-# cmake的使用
-
-## cmake的简单使用
+# cmake的简单使用
 
 cmake的最简单粗暴的使用方法，仅限于Windows。
 
@@ -37,7 +35,7 @@ cmake ..
 make
 ```
 
-## 文件目录理想结构
+# 文件目录理想结构
 
 ```text
 └── ttms
@@ -49,7 +47,7 @@ make
      └── CMakeLists.txt
 ```
 
-## cmake较理想结构
+# cmake较理想结构
 
 ```cmake
 cmake_minimum_required(VERSION 3.20.2)
@@ -72,7 +70,7 @@ add_executable(${PROJECT_NAME}-exe src/main.cpp)
 target_link_libraries(${PROJECT_NAME}-exe PRIVATE ${PROJECT_NAME}-lib)
 ```
 
-## add_definitions( )
+# add_definitions( )
 
 变量名需要以D开头，变量在代码中作为宏定义出现
 
@@ -86,7 +84,7 @@ add_definitions(
 std::ifstream conf(CONFIG_FILE"/config");
 ```
 
-## cmake说明网站
+# cmake说明网站
  
  [CMake菜谱](https://www.bookstack.cn/read/CMake-Cookbook/content-preface-preface-chinese.md)
 

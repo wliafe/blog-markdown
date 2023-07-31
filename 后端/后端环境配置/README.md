@@ -1,18 +1,18 @@
-# 后端环境配置
+# 简介
 
 后端环境包括Mysql数据库、redis和java。
 
 这篇博客采用的是Ubuntu系统，只讲述MySQL数据库和redis的配置方法。
 
-## Linux后端环境shell脚本
+# Linux后端环境shell脚本
 
 为了方便且快速地配置环境，这里我提供了自己编写的shell脚本，脚本的仓库为[java-web-environment](https://gitee.com/wliafe/java-web-environment.git)
 
 脚本MySQL数据库的配置原理和博客不同，采用的是docker的方法，更加简便，且更易写成脚本。
 
-## Mysql数据库
+# Mysql数据库
 
-### 安装MySQL
+## 安装MySQL
 
 ```bash
 # 安装MySQL服务器
@@ -34,7 +34,7 @@ mysql -h (主机ip，可省略) -u root -p
 exit
 ```
 
-### 配置MySQL远程登录
+## 配置MySQL远程登录
 
 修改/etc/mysql/mysql.conf.d/mysqld.cnf配置文件。
 
@@ -44,7 +44,7 @@ exit
 
 MySQL默认端口3306
 
-### 配置MySQL
+## 配置MySQL
 
 运行MySQL初始化安全脚本
 
@@ -52,7 +52,7 @@ MySQL默认端口3306
 mysql_secure_installation
 ```
 
-#### 脚本报错
+### 脚本报错
 
 错误样例
 
@@ -68,16 +68,16 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'Mysql.12
 flush privileges;
 ```
 
-## redis
+# redis
 
-### 安装redis
+## 安装redis
 
 ```bash
 # 安装redis
 apt install redis-server
 ```
 
-### 配置redis
+## 配置redis
 
 修改配置文件/etc/redis/redis.conf
 

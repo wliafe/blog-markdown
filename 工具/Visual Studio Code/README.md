@@ -1,14 +1,12 @@
-# Visual Studio Code
-
-## VScode 配置
+# VScode 配置
 
 [从零开始手把手教你配置属于你的VS Code](https://www.bilibili.com/video/BV1TT4y1g7aF?spm_id_from=333.999.0.0&vd_source=c7f0a8a1b453261561b18cd69cebd8b3)
 
-## VScode 代码格式配置文件
+# VScode 代码格式配置文件
 
 .clang-format
 
-```
+```t
 # 语言: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
 Language:	Cpp
 # BasedOnStyle:	LLVM
