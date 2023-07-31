@@ -12,6 +12,7 @@ shwo tables;
 #展示表结构
 desc ${table_name};
 ```
+
 更多数据库命令，可以参考：[MySQL 有这一篇就够（呕心狂敲37k字，只为博君一点赞！！！）](https://blog.csdn.net/weixin_45851945/article/details/114287877)
 
 ## mysql数据库导入查询

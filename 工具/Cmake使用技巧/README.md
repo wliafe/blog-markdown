@@ -29,12 +29,14 @@ add_executable(${PROJECT_NAME} ${MAIN_FUNC_SRCS})
 ```
 
 Cmake命令
+
 ```bash
 mkdir build
 cd build
 cmake ..
 make
 ```
+
 ## 文件目录理想结构
 
 ```text
@@ -46,6 +48,7 @@ make
      │    └── main.cpp
      └── CMakeLists.txt
 ```
+
 ## cmake较理想结构
 
 ```cmake
@@ -70,7 +73,9 @@ target_link_libraries(${PROJECT_NAME}-exe PRIVATE ${PROJECT_NAME}-lib)
 ```
 
 ## add_definitions( )
+
 变量名需要以D开头，变量在代码中作为宏定义出现
+
 ```cmake
 add_definitions(
         -DCONFIG_FILE="${CMAKE_CURRENT_SOURCE_DIR}/config"
@@ -82,6 +87,7 @@ std::ifstream conf(CONFIG_FILE"/config");
 ```
 
 ## cmake说明网站
+ 
  [CMake菜谱](https://www.bookstack.cn/read/CMake-Cookbook/content-preface-preface-chinese.md)
 
  [GitBook](https://sfumecjf.github.io/cmake-examples-Chinese/)
