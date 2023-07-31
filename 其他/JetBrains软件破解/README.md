@@ -6,4 +6,4 @@ JetBrains的软件非常好用，我比较喜欢，但JetBrains的收费让人�
 
 查看使用说明，建议使用第三种方法
 
-[快速访问链接](https://www.exception.site/)
+[激活码网站快速访问链接](https://www.exception.site/)
