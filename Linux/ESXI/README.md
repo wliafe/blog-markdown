@@ -169,7 +169,7 @@ ESXi重启加载完毕后。
 
 在最后加上 autoPartitionOSDataSize 参数即可定制虚拟闪存大小。
 
-![](17.webp)
+![](17.png)
 
 >注意：默认已有 cdromBoot runweasel 段，务必需要在后面加上空格分隔参数！！默认单位为 MB ，例子为分配 8G，毕竟磁盘只有可怜的 80GB 容量。
 
