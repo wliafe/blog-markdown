@@ -9,19 +9,71 @@ sudo wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Ce
 yum makecache
 ```
 
-# yum软件管理包
+# 包管理器
 
-文章参考：[Centos7-软件包的管理与安装Centos7-软件包的管理与安装](https://blog.csdn.net/liang_operations/article/details/83241551?ops_request_misc=&request_id=&biz_id=102&utm_term=centos7%E5%AE%89%E8%A3%85%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-83241551.142^v2^article_score_rank,143^v4^register&spm=1018.2226.3001.4187)
-
-**包管理常用命令**
+## yum包管理器
 
 ```bash
-yum search xxx			#模糊查询软件包
-yum install xxx			#安装软件包
-yum remove xxx			#删除软件包
+# 安装软件包
+yum install -y 软件包
+# 升级软件包，改变软件设置和系统设置，系统版本内核都升级
+yum update 软件包
+# 升级软件包，不改变软件设置和系统设置，系统版本内核都升级
+yum install upgrade
+# 模糊查询软件包
+yum search 软件包
+# 查询软件包
+yum info 软件包
+# 查询命令属于哪一个包
+yum provides /usr/bin/find
+# 卸载包
+yum remove -y 软件包
+# 按关键字搜索包
+yum search 软件包
+# 清除缓存
+yum clan all
+# 生成缓存
+yum makecache
+# 查看可用的yum源
+yum repolist
+# 列出可用组
+yum grouplist
 ```
 
-# mysql安装
+## rpm包管理器
+
+命令格式：
+
+```bash
+rpm 参数 软件包
+```
+
+参数：
+
+```text
+安装：
+-i 是install的意思，安装软件包
+-v 显示附加信息，提供更多详细信息
+-V 校验，对已安装的软件进行校验
+-h --hash 安装时输出###标记
+查询
+-q 查询，一般跟下面的参数配合使用
+-a 查询所有已安装的软件包
+-f 系统文件名（查询系统文件属于哪个安装包）
+-i 显示已安装的rpm软件包信息
+-l 查询软件包文件的安装位置
+-p 查询未安装软件包的相关信息
+-R 查询软件包的依赖性
+卸载
+-e erase
+--nodeps 忽略依赖
+升级
+-U 一般配合vh使用
+```
+
+# MySQL
+
+## MySQL安装
 
 ```bash
 #下载mysql数据包
@@ -43,13 +95,37 @@ ALTER USER USER() IDENTIFIED BY 'XXXX';
 exit
 ```
 
-**mysql连接c++重要包**
+## MySQL连接c++
+
+### Mysql++简介
+
+这里采用Mysql++这个库
+
+mysql连接c++主要的包有mysql-libs mysql-devel mysql++
+
+Mysql++是官方发布的、一个为MySQL设计的C++语言的API。Mysql++为Mysql的C-Api的再次封装，它用STL(Standard Template Language)开发并编写，并为C++开发者提供像操作STL容器一样方便的操作数据库的一套机制。
+
+### 安装步骤
+
+下载源码包：http://tangentsoft.net/mysql++/
 
 ```bash
-mysql-libs mysql-devel mysql++
+# 解压
+tar zxvf mysql3.2.1.tar.gz
+cd mysql++-3.2.1/
+./configure
+make
+make install
 ```
 
-mysql++参考文章：[centos 6.4下mysql++的安装](https://blog.csdn.net/weixin_33939380/article/details/92123224?ops_request_misc=&request_id=&biz_id=102&utm_term=centos%20mysql%20%E5%AE%89%E8%A3%85%20mysql++&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-92123224.142^v5^pc_search_result_control_group,157^v4^new_style&spm=1018.2226.3001.4187)
+修改/etc/ld.so.conf文件，添加
+   /usr/local/lib
+   /sbin/ldconfig
+   /bin/ln -s /usr/local/lib/libmysqlpp.so /usr/lib/libmysqlpp.so
+
+用 echo $LD_LIBRARY_PATH看下LD_LIBRARY_PATH环境变量中是否包含/usr/local/lib，如果没有的话就export下
+   
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 ## mysql远程连接
 
@@ -61,9 +137,15 @@ update user set user.Host='%' where user.User='root';
 flush privileges;
 ```
 
-# 防火墙firewall的使用
+# 防火墙firewall
 
-文章参考：[防火墙开放端口](https://blog.csdn.net/leiwuhen92/article/details/104551218?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%98%B2%E7%81%AB%E5%A2%99%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-104551218.142^v2^article_score_rank,143^v4^register&spm=1018.2226.3001.4187)
+## 安装firewall
+
+```bash
+yum install -y firewalld
+```
+
+## 使用firewall
 
 ```bash
 #开放端口
@@ -78,15 +160,7 @@ firewall-cmd --zone=public --remove-port=80/tcp --permanent
 firewall-cmd --zone=public --list-ports
 ```
 
-# 网络配置
-
-文章参考：[CentOS7 网络配置超详细ip、网关设置](https://blog.csdn.net/qq_41474121/article/details/108929640?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164752876816782184640676%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164752876816782184640676&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-108929640.142^v2^article_score_rank,143^v4^register&utm_term=centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE&spm=1018.2226.3001.4187)
-
-[Centos 7开启网卡打开DHCP自动获取IP关闭防火墙](https://blog.csdn.net/lukaixiao/article/details/53946243?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164752922416782248553535%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164752922416782248553535&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-4-53946243.142^v2^article_score_rank,143^v4^register&utm_term=centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AEdhcp&spm=1018.2226.3001.4187)
-
-其他参考：[「Linux」- 通过 NetworkManager 连接 Wi-Fi 热点](https://blog.k4nz.com/949d40228a77b57d0fc0e7cd0ca4cbf1/)
-
-**编辑配置文件**
+# 网络配置文件
 
 ```bash
 ip address 		#查看你的网络信息，网卡名，mac地址，IP地址
@@ -116,7 +190,6 @@ NAME=eno16777736
 UUID=71557f7c-446c-4145-8151-1f52f07b8b12
 ONBOOT=yes                  
 #开启自动启用网络连接
-
 #这里增加了第一行的mac地址，
 #最后一行修改成了yes开启网络连接
 ```
@@ -153,18 +226,80 @@ linux主机刚安装好时，ONBOOT属性的缺省值为no，需要修改为yes�
 然后，设置IP地址，网络掩码，网关等。
 ```
 
-# systemctl控制目录
+# systemctl
 
-文章参考：[systemctl配置管理文件详解](https://blog.csdn.net/yonghutwo/article/details/115160748?ops_request_misc=&request_id=&biz_id=102&utm_term=systemctl%20enable%20%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-115160748.nonecase&spm=1018.2226.3001.4187)
-
-**文件存放位置：（共三处）**
+## systemctl基础命令
 
 ```bash
-/etc/systemd/system/
-/usr/lib/systemd/system
-/lib/systemd/system
+#新加载配置
+systemctl daemon-reload
+#列出当前系统服务的状态
+systemctl list-units
+#列出服务的开机状态
+systemctl list-unit-files
+#设定指定服务开机开启
+systemctl enable 服务
+#设定指定服务开机关闭
+systemctl disable 服务
+#使指定服务从新加载配置
+systemctl reload 服务
+#查看指定服务的倚赖关系
+systemctl list-dependencies 服务
+#冻结指定服务
+systemctl mask 服务
+#启用服务
+systemctl unmask 服务
 ```
 
-# CentOS实现远程桌面
+## systemctl控制服务配置文件存放位置
 
-[CentOS7安装xrdp实现Windows桌面远程](https://blog.csdn.net/stony3/article/details/78599246)
+/etc/systemd/system/
+
+/usr/lib/systemd/system
+
+/lib/systemd/system
+
+## 配置文件格式及含义
+
+**文件内容**
+
+```text
+# sshd.service
+[Unit]
+Description=OpenSSH server daemon
+Documentation=man:sshd(8) man:sshd_config(5)
+After=network.target sshd-keygen.service
+Wants=sshd-keygen.service
+[Service]
+Type=forking
+PIDFile=/var/run/sshd.pid
+EnvironmentFile=/etc/sysconfig/sshd
+ExecStart=/usr/sbin/sshd $OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+[Install]
+WantedBy=multi-user.target
+```
+
+**文件内容解释**
+
+```text
+[Unit] 区块：启动顺序与依赖关系。
+Description：当前配置文件的描述信息。
+Documentation：帮助信息。
+After：表示当前服务是在那个服务后面启动，一般定义为网络服务启动后启动
+Wants：表示sshd.service与sshd-keygen.service之间存在”弱依赖”关系，即如果”sshd-keygen.service”启动失败或停止运行，不影响sshd.service继续执行。
+[Service] 区块：启动行为
+Type：定义启动类型。
+PIDFile：服务的pid文件路径。
+EnvironmentFile：指定当前服务依赖的环境参数文件。
+ExecStart：定义启动进程时执行的命令。
+ExecReload：重启服务时执行的命令
+KillMode：定义 Systemd 如何停止 sshd 服务。
+Restart：定义了 sshd 退出后，Systemd 的重启方式。
+RestartSec：表示Systemd重启服务之前，需要等待的秒数。上面的例子设为等待42秒。
+[Install] 区块：定义如何安装这个配置文件，即怎样做到开机启动。
+WantedBy：表示该服务所在的 Target。multi-user.target表明当系统以多用户方式（默认的运行级别）启动时，这个服务需要被自动运行。
+```
