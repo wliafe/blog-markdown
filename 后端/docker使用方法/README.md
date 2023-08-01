@@ -1,3 +1,19 @@
-# docker小知识
-[Docker MySQL的安装与远程连接](https://blog.csdn.net/hewusheng10/article/details/114581743?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165269436916782425136866%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=165269436916782425136866&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-114581743-null-null.142^v9^control,157^v4^control&utm_term=dockers+MySQL+%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5&spm=1018.2226.3001.4187)
-[Docker容器和本机之间的文件传输。](https://blog.csdn.net/Leafage_M/article/details/72082011)
+# docker本地和容器之间的文件传输
+
+## 获取容器id全称
+
+```bash
+docker inspect -f '{{.id}}' 容器名称
+```
+
+## 本地文件传输到容器
+
+```bash
+docker cp 本地文件路径 ID全称:容器路径
+```
+
+## 容器文件传输到本地
+
+```bash
+docker cp ID全称:容器路径 本地文件路径
+```

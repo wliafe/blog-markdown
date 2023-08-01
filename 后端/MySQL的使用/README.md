@@ -4,22 +4,38 @@
 -- 展示所有数据库
 show databases;
 -- 使用数据库
-use databases_name;
+use 数据库名称;
 -- 展示当前数据库所有表
 shwo tables;
 -- 展示表结构
-desc table_name;
+desc 表名称;
 ```
 
-更多数据库命令，可以参考：[MySQL 有这一篇就够（呕心狂敲37k字，只为博君一点赞！！！）](https://blog.csdn.net/weixin_45851945/article/details/114287877)
+# MySQL数据库导入导出
 
-# mysql数据库导入查询
+## MySQL数据库导出数据和表结构
+
+```bash
+mysqldump -u 用户名 -p 密码 数据库名 > 数据库名.sql
+```
+
+## MySQL数据库导出表结构
+
+```bash
+mysqldump -u 用户名 -p 密码 -d 数据库名 > 数据库名.sql
+```
+
+## MySQL数据库导入.sql文件
+
+```bash
+mysql -u 用户名 -p 密码 数据库名 < 数据库名.sql
+```
+
+**数据库中命令方式导入**
 
 ```sql
 -- 选择数据库
-use database_name;
+use 数据库名称;
 -- 导入数据（注意sql文件的路径）
-source sql_path;
+source sql文件路径;
 ```
-
-参考文章：[linux下导入、导出mysql数据库命令](https://blog.csdn.net/weixin_30299539/article/details/94830837)
