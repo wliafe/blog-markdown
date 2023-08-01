@@ -2,7 +2,7 @@
 
 后端环境包括Mysql数据库、redis和java。
 
-这篇博客采用的是Ubuntu系统，只讲述MySQL数据库和redis的配置方法。
+这篇博客采用的是Ubuntu系统。
 
 # Linux后端环境shell脚本
 
@@ -94,3 +94,14 @@ apt install redis-server
 ![redis远程连接](3.png)
 
 最后要重启redis才能生效
+
+# java
+
+## 安装OpenJDK
+
+>headless是OpenJDK的无头版本，即没有图形用户界面(GUI)的版本。无头版本通常用于服务器环境或不需要图形界面的应用程序。它们不包含与图形相关的库和工具，因此可以减少安装的大小和资源消耗。所以，openjdk-9-jre-headless中的headless表示没有图形界面。
+
+```bash
+#可根据需要选择不同的jdk版本
+apt install openjdk-11-jre-headless
+```
