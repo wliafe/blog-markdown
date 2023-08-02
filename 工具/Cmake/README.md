@@ -74,11 +74,15 @@ target_link_libraries(${PROJECT_NAME}-exe PRIVATE ${PROJECT_NAME}-lib)
 
 变量名需要以D开头，变量在代码中作为宏定义出现
 
+cmake文件：
+
 ```cmake
 add_definitions(
         -DCONFIG_FILE="${CMAKE_CURRENT_SOURCE_DIR}/config"
 )
 ```
+
+cpp文件：
 
 ```cpp
 std::ifstream conf(CONFIG_FILE"/config");
