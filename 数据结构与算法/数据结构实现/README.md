@@ -227,7 +227,7 @@ int main() {
 	}
 	cout<<flag<<endl;
 	
-	return 0；
+	return 0;
 }
 ```
 
@@ -410,7 +410,7 @@ int main(void) {
 	}
 	free(quere);
 	
-	return 0；
+	return 0;
 }
 ```
 
