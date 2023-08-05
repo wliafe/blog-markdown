@@ -36,7 +36,9 @@
 
 这个是蜂巢的[Github网址](https://github.com/i2ii/i)，star这个仓库可以跟踪蜂巢的更新
 
-这个是网址是国内可访问的[蜂巢网址](https://a.bhteam.cloud/)
+这个是网址是国内可访问的[蜂巢](https://a.bhteam.cloud/)网址
+
+这个是被墙的[蜂巢专线版](https://98ka.men/)网址
 
 ## 性价比机场
 
