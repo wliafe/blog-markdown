@@ -40,9 +40,9 @@ wliafe的博客，欢迎光临
 
 [阿里云盘](https://www.aliyundrive.com/)，[夸克网盘](https://pan.quark.cn/)，[巴法云](https://cloud.bemfa.com/)
 
-[91美剧网](https://91mjw.tv/)，[低端影视](https://ddys.site/)
+[91美剧网](https://91mjw.tv/)，[低端影视](https://ddys.site/)，[阿里云盘吧](https://www.alipanba.com/)
 
-[恩山无线论坛](https://www.right.com.cn/)，[阿里云盘吧](https://www.alipanba.com/)，[知网](https://lib.bimuchachong.com/)
+[恩山无线论坛](https://www.right.com.cn/)，[知网](https://lib.bimuchachong.com/)
 
 [资源猫](https://www.ziyuanm.com/)，[大数据导航](https://hao.199it.com/)，[虫部落](https://search.chongbuluo.com/)，[猎手导航搜索](http://www.lsdhss.com/)
 
