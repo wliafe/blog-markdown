@@ -16,9 +16,21 @@ wliafe的博客，欢迎光临
 
 ## 前端
 
-[Vue](https://cn.vuejs.org/)，[Vite](https://cn.vitejs.dev/)，[Element Plus](https://element-plus.gitee.io/zh-CN/)，[Vue Router](https://router.vuejs.org/zh/)，[Pinia](https://pinia.vuejs.org/zh/)，[Axios](https://www.axios-http.cn/)，[Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)，[ECharts](https://echarts.apache.org/handbook/zh/get-started/)，[marked.js](http://www.dagoogle.cn/n/745.html)
+[Vue](https://cn.vuejs.org/)，[Vite](https://cn.vitejs.dev/)
 
-[iconfont](https://www.iconfont.cn/)，[标志客](https://www.logomaker.com.cn/)，[标小智](https://www.logosc.cn/logo/favicon)，[聚合数据](https://www.juhe.cn/)
+[Vue Router](https://router.vuejs.org/zh/)，[Pinia](https://pinia.vuejs.org/zh/)
+
+[Element Plus](https://element-plus.gitee.io/zh-CN/)
+
+[Axios](https://www.axios-http.cn/)，[Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
+
+[ECharts](https://echarts.apache.org/handbook/zh/get-started/)
+
+[marked.js](http://www.dagoogle.cn/n/745.html)，[highlight.js下载地址](https://highlightjs.org/)，[highlight.js预览效果](https://highlightjs.org/static/demo/)
+
+[iconfont](https://www.iconfont.cn/)，[标志客](https://www.logomaker.com.cn/)，[标小智](https://www.logosc.cn/logo/favicon)
+
+[聚合数据](https://www.juhe.cn/)
 
 ## 工具
 
