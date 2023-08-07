@@ -47,7 +47,7 @@ call conda deactivate
 
 我用的是Ubuntu环境
 
-## 机器学习Linux环境shell脚本
+## shell脚本
 
 为方便配置Linux环境，我编写了一个shell脚本，脚本仓库为[pytorch-environment](https://gitee.com/wliafe/pytorch-environment.git)
 
