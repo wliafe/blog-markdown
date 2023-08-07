@@ -24,7 +24,7 @@ wliafe的博客，欢迎光临
 
 [Axios](https://www.axios-http.cn/)，[Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
 
-[ECharts](https://echarts.apache.org/handbook/zh/get-started/)
+[ECharts](https://echarts.apache.org/)
 
 [marked.js](http://www.dagoogle.cn/n/745.html)，[highlight.js下载地址](https://highlightjs.org/)，[highlight.js预览效果](https://highlightjs.org/static/demo/)
 
