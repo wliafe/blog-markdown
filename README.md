@@ -58,6 +58,8 @@ wliafe的博客，欢迎光临
 
 ps：科三上次没有考过，又要练车了。。。
 
+ps：谷歌翻译对中国内陆不开放了，找了半天才找到合适的替代品，就是[腾讯翻译插件](https://chrome.google.com/webstore/detail/%E8%85%BE%E8%AE%AF%E7%BF%BB%E8%AF%91/lkjkfecdnfjopaeaibboihfkmhdjmanm)，还挺好用。
+
 # 友链
 
 [Phantomor](https://phantomor.github.io/)
