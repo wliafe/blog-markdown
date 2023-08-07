@@ -1,9 +1,3 @@
-# 简介
-
-[二面题链接](https://note.youdao.com/ynoteshare1/index.html?id=019a552f3af31d4841840a017348a33f&type=note)
-
-[二面题链接](https://note.youdao.com/ynoteshare1/index.html?id=b0019f5338c415169130075971f343fb&type=note)
-
 # 算法题
 
 ## 棋盘问题
