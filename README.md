@@ -8,11 +8,7 @@ wliafe的博客，欢迎光临
 
 # 个人常用网站
 
-[Github](https://github.com/)，[Gitee](https://gitee.com/)
-
-[CSDN](https://www.csdn.net/)，[中文开源技术交流社区](https://www.oschina.net/)，[稀土掘金](https://juejin.cn/)，[知乎](https://www.zhihu.com/)，[博客园](https://www.cnblogs.com/)，[51CTO博客](https://blog.51cto.com/)
-
-[菜鸟教程](https://www.runoob.com/)
+[Github](https://github.com/)，[Gitee](https://gitee.com/)，[CSDN](https://www.csdn.net/)，[ChatGPT](https://chat.openai.com/)，[菜鸟教程](https://www.runoob.com/)
 
 ## 前端
 
@@ -39,6 +35,8 @@ wliafe的博客，欢迎光临
 ## 资源
 
 [阿里云盘](https://www.aliyundrive.com/)，[夸克网盘](https://pan.quark.cn/)，[巴法云](https://cloud.bemfa.com/)
+
+[中文开源技术交流社区](https://www.oschina.net/)，[稀土掘金](https://juejin.cn/)，[知乎](https://www.zhihu.com/)，[博客园](https://www.cnblogs.com/)，[51CTO博客](https://blog.51cto.com/)
 
 [91美剧网](https://91mjw.tv/)，[低端影视](https://ddys.site/)，[阿里云盘吧](https://www.alipanba.com/)
 
