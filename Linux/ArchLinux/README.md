@@ -48,14 +48,24 @@ dev是Linux的外部设备目录，sda是硬盘。
 
 ```bash
 mkswap /dev/sda1
+```
+
+```bash
 mkfs.ext4 /dev/sda2
 ```
 
 **挂载分区**
 
+swap分区不用挂载，但要启动
+
 ```bash
-swapon /dev/sda1 			#swap分区不用挂载，但要启动
-mount /dev/sda2 /mnt 		#这里的/mnt就是Linux安装好后的根目录
+swapon /dev/sda1
+```
+
+这里的/mnt就是Linux安装好后的根目录
+
+```bash
+mount /dev/sda2 /mnt
 ```
 
 ## 更换镜像源
@@ -66,9 +76,17 @@ mount /dev/sda2 /mnt 		#这里的/mnt就是Linux安装好后的根目录
 
 ```bash
 vim /etc/pacman.d/mirrorlist
-# 在文件中添加镜像源（中国国内镜像源选择一个就可以，这里是清华源）
+```
+
+在文件中添加镜像源（中国国内镜像源选择一个就可以，这里是清华源）
+
+```bash
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
-# 更新镜像源
+```
+
+更新镜像源
+
+```bash
 pacman -Syy
 ```
 
@@ -78,12 +96,21 @@ pacman -Syy
 
 base base-devel是Linux基础包，必须安装。linux linux-firmware是Linux驱动和Linux的其他东西。。。dhcpcd 是网络自动分配ip的服务，vim是Linux常用的编辑器。这次安装目的是方便在新装的系统中使用。
 
+安装新系统软件
+
 ```bash
-#安装新系统软件
 pacstrap /mnt base base-devel linux linux -firmware dhcpcd vim
-#生成文件系统信息
+```
+
+生成文件系统信息
+
+```bash
 genfstab -U /mnt >> /mnt/etc/fstab
-#查看文件系统信息
+```
+
+查看文件系统信息
+
+```bash
 cat /mnt/etc/fstab
 ```
 
@@ -101,8 +128,15 @@ pacman是archlinux的包管理器
 
 ```bash
 pacman -S grub
+```
+
+```bash
 grub-install --froce /dev/sda
-#生成默认配置文件
+```
+
+生成默认配置文件
+
+```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
@@ -116,7 +150,13 @@ passwd
 
 ```bash
 exit
+```
+
+```bash
 umount -R /mnt
+```
+
+```bash
 reboot
 ```
 
@@ -140,6 +180,9 @@ systemctl (start/status/enable/stop) dhcpcd
 
 ```bash
 vim /etc/locale.gen
+```
+
+```bash
 locale-gen
 ```
 
@@ -147,9 +190,17 @@ locale-gen
 
 ```bash
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-#时间同步
+```
+
+时间同步
+
+```bash
 sudo timedatectl set-ntp true
-#检查时间同步状态
+```
+
+检查时间同步状态
+
+```bash
 timedatectl
 ```
 
@@ -205,6 +256,9 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
 ```bash
 sudo pacman -S archlinuxcn-keyring
+```
+
+```bash
 sudo pacman -Sy
 ```
 
@@ -212,6 +266,9 @@ sudo pacman -Sy
 
 ```bash
 sudo pacman -S gnome
+```
+
+```bash
 systemctl enable gdm
 ```
 
@@ -255,6 +312,9 @@ sudo pacman -S yay
 
 ```bash
 sudo pacman -Ss xxx
+```
+
+```bash
 yay xxx
 ```
 
@@ -262,5 +322,8 @@ yay xxx
 
 ```bash
 sudo pacman -S xxx
+```
+
+```bash
 yay -S xxx
 ```

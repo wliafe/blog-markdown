@@ -4,8 +4,17 @@
 
 ```bash
 yum install wget
+```
+
+```bash
 rm /etc/yum.repos.d/CentOS-Base.repo
+```
+
+```bash
 sudo wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo 
+```
+
+```bash
 yum makecache
 ```
 
@@ -13,30 +22,75 @@ yum makecache
 
 ## yum包管理器
 
+安装软件包
+
 ```bash
-# 安装软件包
 yum install -y 软件包
-# 升级软件包，改变软件设置和系统设置，系统版本内核都升级
+```
+
+升级软件包，改变软件设置和系统设置，系统版本内核都升级
+
+```bash
 yum update 软件包
-# 升级软件包，不改变软件设置和系统设置，系统版本内核都升级
+```
+
+升级软件包，不改变软件设置和系统设置，系统版本内核都升级
+
+```bash
 yum install upgrade
-# 模糊查询软件包
+```
+
+模糊查询软件包
+
+```bash
 yum search 软件包
-# 查询软件包
+```
+
+查询软件包
+
+```bash
 yum info 软件包
-# 查询命令属于哪一个包
+```
+
+查询命令属于哪一个包
+
+```bash
 yum provides /usr/bin/find
-# 卸载包
+```
+
+卸载包
+
+```bash
 yum remove -y 软件包
-# 按关键字搜索包
+```
+
+按关键字搜索包
+
+```bash
 yum search 软件包
-# 清除缓存
+```
+
+清除缓存
+
+```bash
 yum clan all
-# 生成缓存
+```
+
+生成缓存
+
+```bash
 yum makecache
-# 查看可用的yum源
+```
+
+查看可用的yum源
+
+```bash
 yum repolist
-# 列出可用组
+```
+
+列出可用组
+
+```bash
 yum grouplist
 ```
 
@@ -75,23 +129,55 @@ rpm 参数 软件包
 
 ## MySQL安装
 
+下载mysql数据包
+
 ```bash
-#下载mysql数据包
 wget http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
-#安装mysql
+```
+
+安装mysql
+
+```bash
 yum -y install mysql57-community-release-el7-10.noarch.rpm
+```
+
+```bash
 yum -y install mysql-community-server
-#如果报错说公钥尚未安装则用如下命令，跳过公钥检查
+```
+
+如果报错说公钥尚未安装则用如下命令，跳过公钥检查
+
+```bash
 yum -y install mysql-community-server --nogpgcheck
-#启动mysql服务
+```
+
+启动mysql服务
+
+```bash
 systemctl start  mysqld
-#查看初始密码
+```
+
+查看初始密码
+
+```bash
 grep 'password' /var/log/mysqld.log
-#进入数据库
+```
+
+进入数据库
+
+```bash
 mysql -h (主机ip，可省略) -u root -p 
-#修改root密码，xxxx就是新密码，大小写加符号
+```
+
+修改root密码，xxxx就是新密码，大小写加符号
+
+```bash
 ALTER USER USER() IDENTIFIED BY 'XXXX';
-#退出
+```
+
+退出
+
+```bash
 exit
 ```
 
@@ -109,12 +195,25 @@ Mysql++是官方发布的、一个为MySQL设计的C++语言的API。Mysql++为M
 
 下载源码包：http://tangentsoft.net/mysql++/
 
+解压
+
 ```bash
-# 解压
 tar zxvf mysql3.2.1.tar.gz
+```
+
+```bash
 cd mysql++-3.2.1/
+```
+
+```bash
 ./configure
+```
+
+```bash
 make
+```
+
+```bash
 make install
 ```
 
@@ -133,7 +232,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 ```bash
 use mysql;
+```
+
+```bash
 update user set user.Host='%' where user.User='root';
+```
+
+```bash
 flush privileges;
 ```
 
@@ -147,25 +252,52 @@ yum install -y firewalld
 
 ## 使用firewall
 
+开放端口
+
 ```bash
-#开放端口
 firewall-cmd --zone=public --add-port=80/tcp --permanent
-#重新启动防火墙
+```
+
+重新启动防火墙
+
+```bash
 firewall-cmd --reload
-#查看端口是否开启
+```
+
+查看端口是否开启
+
+```bash
 firewall-cmd --zone=public --query-port=80/tcp
-#删除端口
+```
+
+删除端口
+
+```bash
 firewall-cmd --zone=public --remove-port=80/tcp --permanent
-#列出开放端口
+```
+
+列出开放端口
+
+```bash
 firewall-cmd --zone=public --list-ports
 ```
 
 # 网络配置文件
 
+查看你的网络信息，网卡名，mac地址，IP地址
+
 ```bash
-ip address 		#查看你的网络信息，网卡名，mac地址，IP地址
+ip address
+```
+
+```bash
 cd /etc/sysconfig/network-scripts
-vim xxx			#你的网卡名
+```
+
+你的网卡名
+
+```bash
+vim xxx
 ```
 
 **dhcp自动获取ip**
@@ -198,7 +330,7 @@ ONBOOT=yes
 
 最重要的四个设置，ip、网关、子网掩码、dns
 
-```bash
+```text
 代码示例:
 TYPE=Ethernet
 PROXY_METHOD=none
@@ -230,24 +362,57 @@ linux主机刚安装好时，ONBOOT属性的缺省值为no，需要修改为yes�
 
 ## systemctl基础命令
 
+新加载配置
+
 ```bash
-#新加载配置
 systemctl daemon-reload
-#列出当前系统服务的状态
+```
+
+列出当前系统服务的状态
+
+```bash
 systemctl list-units
-#列出服务的开机状态
+```
+
+列出服务的开机状态
+
+```bash
 systemctl list-unit-files
-#设定指定服务开机开启
+```
+
+设定指定服务开机开启
+
+```bash
 systemctl enable 服务
-#设定指定服务开机关闭
+```
+
+设定指定服务开机关闭
+
+```bash
 systemctl disable 服务
-#使指定服务从新加载配置
+```
+
+使指定服务从新加载配置
+
+```bash
 systemctl reload 服务
-#查看指定服务的倚赖关系
+```
+
+查看指定服务的倚赖关系
+
+```bash
 systemctl list-dependencies 服务
-#冻结指定服务
+```
+
+冻结指定服务
+
+```bash
 systemctl mask 服务
-#启用服务
+```
+
+启用服务
+
+```bash
 systemctl unmask 服务
 ```
 
