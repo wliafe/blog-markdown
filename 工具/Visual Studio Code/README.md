@@ -30,6 +30,10 @@ Code Runner：代码运行软件
 
 ![Code Runner扩展图](4.png)
 
+Git Graph：git版本控制查看软件
+
+![Git Graph扩展图](12.png)
+
 ## Code Runner 配置
 
 打开扩展设置
