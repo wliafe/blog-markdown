@@ -40,15 +40,15 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$\frac{x}{y}$|\$\frac{x}{y}\$|
+|$\frac{x}{y}$|`$\frac{x}{y}$`|
 
 分式较为复杂时，可以使用 `分子 \over 分母` 表示，如：
 
 |显示|代码|
 |:--:|:--:|
-|$a+b+c+d+e+f \over g+h+i+j+k+l$|\$a+b+c+d+e+f \over g+h+i+j+k+l\$|​
+|$a+b+c+d+e+f \over g+h+i+j+k+l$|`$a+b+c+d+e+f \over g+h+i+j+k+l$`|​
 
-当分式仅有两个字符时，可以使用 \frac ab 来快速生成$\frac ab$
+当分式仅有两个字符时，可以使用 `\frac ab` 来快速生成$\frac ab$
 
 ### 开方
 
@@ -56,24 +56,24 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$\sqrt{2}$|\$\sqrt{2}\$|
-|$\sqrt[n]{5}$|\$\sqrt[n]{5}\$|
+|$\sqrt{2}$|`$\sqrt{2}$`|
+|$\sqrt[n]{5}$|`$\sqrt[n]{5}$`|
 
 ### 向量和箭头
 
 |显示|代码|描述|
 |:--:|:--:|:--:|
-|$\vec{x}$|\$\vec{x}\$|向量 x|
-|$\overleftarrow{x}$|\$\overleftarrow{x}\$|x 上方左箭头|
-|$\overrightarrow{x}$|\$\overrightarrow{x}\$|x 上方向右箭头|
-|$\leftarrow$|\$\leftarrow\$|左箭头|
-|$\rightarrow$|\$\rightarrow\$|右箭头|
-|$\uparrow$|\$\uparrow\$|向上的箭头|
-|$\downarrow$|\$\downarrow\$|向下的箭头|
-|$\Leftarrow$|\$\Leftarrow\$||
-|$\Rightarrow$|\$\Rightarrow\$||
-|$\Uparrow$|\$\Uparrow\$||
-|$\Downarrow$|\$\Downarrow\$||
+|$\vec{x}$|`$\vec{x}$`|向量 x|
+|$\overleftarrow{x}$|`$\overleftarrow{x}$`|x 上方左箭头|
+|$\overrightarrow{x}$|`$\overrightarrow{x}$`|x 上方向右箭头|
+|$\leftarrow$|`$\leftarrow$`|左箭头|
+|$\rightarrow$|`$\rightarrow$`|右箭头|
+|$\uparrow$|`$\uparrow$`|向上的箭头|
+|$\downarrow$|`$\downarrow$`|向下的箭头|
+|$\Leftarrow$|`$\Leftarrow$`||
+|$\Rightarrow$|`$\Rightarrow$`||
+|$\Uparrow$|`$\Uparrow$`||
+|$\Downarrow$|`$\Downarrow$`||
 	
 ### 积分
 
@@ -117,141 +117,141 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示(小写)|代码(小写)|显示(大写)|代码(大写)|
 |:--:|:--:|:--:|:--:|
-|$\alpha$|\$\alpha\$|$A$|\$A\$|
-|$\beta$|\$\beta\$|$B$|\$B\$|
-|$\gamma$|\$\gamma\$|$\Gamma$|\$\Gamma\$|
-|$\delta$|\$\delta\$|$\Delta$|\$\Delta\$|
-|$\epsilon$|\$\epsilon\$|$\Epsilon$|\$\Epsilon\$|
-|$\zeta$|\$\zeta\$|$\Zeta$|\$\Zeta\$|
-|$\eta$|\$\eta\$|$\Eta$|\$\Eta\$|
-|$\theta$|\$\theta\$|$\Theta$|\$\Theta\$|
-|$\iota$|\$\iota\$|$\Iota$|\$\Iota\$|
-|$\kappa$|\$\kappa\$|$\Kappa$|\$\Kappa\$|
-|$\lambda$|\$\lambda\$|$\Lambda$|\$\Lambda\$|
-|$\mu$|\$\mu\$|$\Mu$|\$\Mu\$|
-|$\nu$|\$\nu\$|$\Nu$|\$\Nu\$|
-|$\xi$|\$\xi\$|$\Xi$|\$\Xi\$|
-|$o$|\$o\$|$O$|\$O\$|
-|$\pi$|\$\pi\$|$\Pi$|\$\Pi\$|
-|$\rho$|\$\rho\$|$\Rho$|\$\Rho\$|
-|$\sigma$|\$\sigma\$|$\Sigma$|\$\Sigma\$|
-|$\tau$|\$\tau\$|$\Tau$|\$\Tau\$|
-|$\upsilon$|\$\upsilon\$|$\Upsilon$|\$\Upsilon\$|
-|$\phi$|\$\phi\$|$\Phi$|\$\Phi\$|
-|$\chi$|\$\chi\$|$\Chi$|\$\Chi\$|
-|$\psi$|\$\psi\$|$\Psi$|\$\Psi\$|
-|$\omega$|\$\omega\$|$\Omega$|\$\Omega\$|
+|$\alpha$|`$\alpha$`|$A$|`$A$`|
+|$\beta$|`$\beta$`|$B$|`$B$`|
+|$\gamma$|`$\gamma$`|$\Gamma$|`$\Gamma$`|
+|$\delta$|`$\delta$`|$\Delta$|`$\Delta$`|
+|$\epsilon$|`$\epsilon$`|$\Epsilon$|`$\Epsilon$`|
+|$\zeta$|`$\zeta$`|$\Zeta$|`$\Zeta$`|
+|$\eta$|`$\eta$`|$\Eta$|`$\Eta$`|
+|$\theta$|`$\theta$`|$\Theta$|`$\Theta$`|
+|$\iota$|`$\iota$`|$\Iota$|`$\Iota$`|
+|$\kappa$|`$\kappa$`|$\Kappa$|`$\Kappa$`|
+|$\lambda$|`$\lambda$`|$\Lambda$|`$\Lambda$`|
+|$\mu$|`$\mu$`|$\Mu$|`$\Mu$`|
+|$\nu$|`$\nu$`|$\Nu$|`$\Nu$`|
+|$\xi$|`$\xi$`|$\Xi$|`$\Xi$`|
+|$o$|`$o$`|$O$|`$O$`|
+|$\pi$|`$\pi$`|$\Pi$|`$\Pi$`|
+|$\rho$|`$\rho$`|$\Rho$|`$\Rho$`|
+|$\sigma$|`$\sigma$`|$\Sigma$|`$\Sigma$`|
+|$\tau$|`$\tau$`|$\Tau$|`$\Tau$`|
+|$\upsilon$|`$\upsilon$`|$\Upsilon$|`$\Upsilon$`|
+|$\phi$|`$\phi$`|$\Phi$|`$\Phi$`|
+|$\chi$|`$\chi$`|$\Chi$|`$\Chi$`|
+|$\psi$|`$\psi$`|$\Psi$|`$\Psi$`|
+|$\omega$|`$\omega$`|$\Omega$|`$\Omega$`|
 
 ### 关系运算符
 
 |显示|代码|
 |:--:|:--:|
-|$\pm$|\$\pm\$|
-|$\times$|\$\times\$|
-|$\div$|\$\div\$|
-|$\mid$|\$\mid\$|
-|$\nmid$|\$\nmid\$|
-|$\cdot$|\$\cdot\$|
-|$\circ$|\$\circ\$|
-|$\ast$|\$\ast\$|
-|$\bigodot$|\$\bigodot\$|
-|$\bigotimes$|\$\bigotimes\$|
-|$\bigoplus$|\$\bigoplus\$|
-|$\leq$|\$\leq\$|
-|$\geq$|\$\geq\$|
-|$\neq$|\$\neq\$|
-|$\approx$|\$\approx\$|
-|$\equiv$|\$\equiv\$|
-|$\sum$|\$\sum\$|
-|$\prod$|\$\prod\$|
-|$\coprod$|\$\coprod\$|
-|$\backslash$|\$\backslash\$|
+|$\pm$|`$\pm$`|
+|$\times$|`$\times$`|
+|$\div$|`$\div$`|
+|$\mid$|`$\mid$`|
+|$\nmid$|`$\nmid$`|
+|$\cdot$|`$\cdot$`|
+|$\circ$|`$\circ$`|
+|$\ast$|`$\ast$`|
+|$\bigodot$|`$\bigodot$`|
+|$\bigotimes$|`$\bigotimes$`|
+|$\bigoplus$|`$\bigoplus$`|
+|$\leq$|`$\leq$`|
+|$\geq$|`$\geq$`|
+|$\neq$|`$\neq$`|
+|$\approx$|`$\approx$`|
+|$\equiv$|`$\equiv$`|
+|$\sum$|`$\sum$`|
+|$\prod$|`$\prod$`|
+|$\coprod$|`$\coprod$`|
+|$\backslash$|`$\backslash$`|
 
 ### 集合运算
 
 |显示|代码|描述|
 |:--:|:--:|:--:|
-|$\emptyset$|\$\emptyset\$|空集|
-|$\in$|\$\in\$|属于|
-|$\notin$|\$\notin\$|不属于|
-|$\subset$|\$\subset\$|真包含于| 
-|$\supset$|\$\supset\$|真包含|
-|$\subseteq$|\$\subseteq\$|包含|
-|$\supseteq$|\$\supseteq\$|包含|
-|$\cap$|\$\cap\$|交集|
-|$\cup$|\$\cup\$|并集|
-|$\vee$|\$\vee\$||
-|$\wedge$|\$\wedge\$||
-|$\uplus$|\$\uplus\$||
-|$\top$|\$\top\$||
-|$\bot$|\$\bot\$||
-|$\complement$|\$\complement\$||
+|$\emptyset$|`$\emptyset$`|空集|
+|$\in$|`$\in$`|属于|
+|$\notin$|`$\notin$`|不属于|
+|$\subset$|`$\subset$`|真包含于| 
+|$\supset$|`$\supset$`|真包含|
+|$\subseteq$|`$\subseteq$`|包含|
+|$\supseteq$|`$\supseteq$`|包含|
+|$\cap$|`$\cap$`|交集|
+|$\cup$|`$\cup$`|并集|
+|$\vee$|`$\vee$`||
+|$\wedge$|`$\wedge$`||
+|$\uplus$|`$\uplus$`||
+|$\top$|`$\top$`||
+|$\bot$|`$\bot$`||
+|$\complement$|`$\complement$`||
 
 ### 对数运算
 
 |显示|代码|
 |:--:|:--:|
-|$\log$|\$\log\$|
-|$\lg$|\$\lg\$|
-|$\ln$|\$\ln\$|
+|$\log$|`$\log$`|
+|$\lg$|`$\lg$`|
+|$\ln$|`$\ln$`|
 
 ### 三角运算
 
 |显示|代码|
 |:--:|:--:|
-|$\backsim$|\$\backsim\$|
-|$\cong$|\$\cong\$|
-|$\angle A$|\$\angle A\$|
-|$\sin$|\$\sin\$|
-|$\cos$|\$\cos\$|
-|$\tan$|\$\tan\$|
-|$\csc$|\$\csc\$|
-|$\sec$|\$\sec\$|
-|$\cot$|\$\cot\$|
+|$\backsim$|`$\backsim$`|
+|$\cong$|`$\cong$`|
+|$\angle A$|`$\angle A$`|
+|$\sin$|`$\sin$`|
+|$\cos$|`$\cos$`|
+|$\tan$|`$\tan$`|
+|$\csc$|`$\csc$`|
+|$\sec$|`$\sec$`|
+|$\cot$|`$\cot$`|
 
 ### 微积分运算
 
 |显示|代码|
 |:--:|:--:|
-|$\int$|\$\int\$|
-|$\iint$|\$\iint\$|
-|$\iiint$|\$\iiint\$|
-|$\partial$|\$\partial\$|
-|$\oint$|\$\oint\$|
-|$\prime$|\$\prime\$|
-|$\lim$|\$\lim\$|
-|$\infty$|\$\infty\$|
-|$\nabla$|\$\nabla\$|
+|$\int$|`$\int$`|
+|$\iint$|`$\iint$`|
+|$\iiint$|`$\iiint$`|
+|$\partial$|`$\partial$`|
+|$\oint$|`$\oint$`|
+|$\prime$|`$\prime$`|
+|$\lim$|`$\lim$`|
+|$\infty$|`$\infty$`|
+|$\nabla$|`$\nabla$`|
 
 ### 逻辑运算
 
 |显示|代码|描述|
 |:--:|:--:|:--:|
-|$\because$|\$\because\$|因为|
-|$\therefore$|\$\therefore\$|所以|
-|$\neg$|\$\neg\$|非|
-|$\forall$|\$\forall\$|任意|
-|$\exists$|\$\exists\$|存在|
-|$\not\subset$|\$\not\subset\$|不包含于|
-|$\not<$|\$\not<\$|不小于|
-|$\not>$|\$\not>\$|不大于|
-|$\not=$|\$\not=\$|不等于|
+|$\because$|`$\because$`|因为|
+|$\therefore$|`$\therefore$`|所以|
+|$\neg$|`$\neg$`|非|
+|$\forall$|`$\forall$`|任意|
+|$\exists$|`$\exists$`|存在|
+|$\not\subset$|`$\not\subset$`|不包含于|
+|$\not<$|`$\not<$`|不小于|
+|$\not>$|`$\not>$`|不大于|
+|$\not=$|`$\not=$`|不等于|
 
 ### 戴帽运算
 
 |显示|代码|
 |:--:|:--:|
-|$\hat{xy}$|\$\hat{xy}\$|
-|$\widehat{xyz}$|\$\widehat{xyz}\$|
-|$\bar{y}$|\$\bar{y}\$|
-|$\tilde{xy}$|\$\tilde{xy}\$|
-|$\widetilde{xyz}$|\$\widetilde{xyz}\$|
-|$\acute{y}$|\$\acute{y}\$|
-|$\breve{y}$|\$\breve{y}\$|
-|$\check{y}$|\$\check{y}\$|
-|$\grave{y}$|\$\grave{y}\$|
-|$\dot{x}$|\$\dot{x}\$|
-|$\ddot{x}$|\$\ddot{x}\$|
+|$\hat{xy}$|`$\hat{xy}$`|
+|$\widehat{xyz}$|`$\widehat{xyz}$`|
+|$\bar{y}$|`$\bar{y}$`|
+|$\tilde{xy}$|`$\tilde{xy}$`|
+|$\widetilde{xyz}$|`$\widetilde{xyz}$`|
+|$\acute{y}$|`$\acute{y}$`|
+|$\breve{y}$|`$\breve{y}$`|
+|$\check{y}$|`$\check{y}$`|
+|$\grave{y}$|`$\grave{y}$`|
+|$\dot{x}$|`$\dot{x}$`|
+|$\ddot{x}$|`$\ddot{x}$`|
 
 ### 为公式加注释
 
@@ -259,7 +259,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$f(x)= \begin{cases} 0,& \text{if x is even} \\ 1, & \text{if x is odd} \end{cases}$|\$f(x)= \begin{cases} 0,& \text{if x is even} \\ 1, & \text{if x is odd} \end{cases}\$|
+|$f(x)= \begin{cases} 0,& \text{if x is even} \\ 1, & \text{if x is odd} \end{cases}$|`$f(x)= \begin{cases} 0,& \text{if x is even} \\ 1, & \text{if x is odd} \end{cases}$`|
 
 ### 为公式加序号
 
@@ -267,7 +267,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$$y=ax+b \tag{公式1}$$|\$\$y=ax+b \tag{公式1}\$\$|
+|$$y=ax+b \tag{公式1}$$|`$$y=ax+b \tag{公式1}$$`|
 
 ### 加粗
 
@@ -277,7 +277,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$\mathbf{0123456789}$|\$\mathbf{0123456789}\$|
+|$\mathbf{0123456789}$|`$\mathbf{0123456789}$`|
 
 希腊字母加粗：
 
@@ -285,7 +285,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$\pmb{\alpha\beta}$|\$\pmb{\alpha\beta}\$|
+|$\pmb{\alpha\beta}$|`$\pmb{\alpha\beta}$`|
 
 斜体加粗：
 
@@ -293,7 +293,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 |显示|代码|
 |:--:|:--:|
-|$\boldsymbol{\alpha\beta}$|\$\boldsymbol{\alpha\beta}\$|
+|$\boldsymbol{\alpha\beta}$|`$\boldsymbol{\alpha\beta}$`|
 
 ### 矩阵
 
@@ -415,28 +415,28 @@ $$
 
 |显示|代码|
 |:--:|:--:|
-|$a \times b$|\$a \times b\$|
+|$a \times b$|`$a \times b$`|
 
 点乘：
 
 |显示|代码|
 |:--:|:--:|
-|$a \cdot b$|\$a \cdot b\$|
+|$a \cdot b$|`$a \cdot b$`|
 
 内积：
 
 |显示|代码|
 |:--:|:--:|
-|$\langle a , b \rangle$|\$\langle a , b \rangle\$|
+|$\langle a , b \rangle$|`$\langle a , b \rangle$`|
 
 外积：
 
 |显示|代码|
 |:--:|:--:|
-|$a \otimes b$|\$a \otimes b\$|
+|$a \otimes b$|`$a \otimes b$`|
 
 ### 实数R
 
 |显示|代码|
 |:--:|:--:|
-|$\mathbb{R}$|\$\mathbb{R}\$|
+|$\mathbb{R}$|`$\mathbb{R}$`|
