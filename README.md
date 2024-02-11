@@ -20,7 +20,7 @@ wliafe的博客，欢迎光临
 
 ## 工具
 
-[查询网](https://www.ip138.com/)，[Desmos图形计算器](https://www.desmos.com/)，[Convertio文件转换器](https://convertio.co/zh/)，[依奇在线超级转换工具](https://www.wdku.net/)
+[查询网](https://www.ip138.com/)，[Desmos图形计算器](https://www.desmos.com/)，[Convertio文件转换器](https://convertio.co/zh/)，[依奇在线超级转换工具](https://www.wdku.net/)，[B站视频下载工具](https://zhouql.vip/bilibili/)
 
 ## 资源
 
