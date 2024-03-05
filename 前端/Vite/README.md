@@ -3,7 +3,7 @@
 ## base
 
 ```js
-export default defineConfig((mode) => {
+export default defineConfig(({mode}) => {
     return {
         base: './',
         plugins: [vue()],
@@ -14,7 +14,7 @@ export default defineConfig((mode) => {
 ## alias
 
 ```js
-export default defineConfig((mode) => {
+export default defineConfig(({mode}) => {
     return {
         plugins: [vue()],
         resolve: {
@@ -29,7 +29,7 @@ export default defineConfig((mode) => {
 ## 生产环境移除console
 
 ```js
-export default defineConfig((mode) => {
+export default defineConfig(({mode}) => {
     return {
         plugins: [vue()],
         build: {
@@ -49,7 +49,7 @@ export default defineConfig((mode) => {
 ## 配置proxy代理
 
 ```js
-export default defineConfig((mode) => {
+export default defineConfig(({mode}) => {
     return {
         plugins: [vue()],
         server: {
