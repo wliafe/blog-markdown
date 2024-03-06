@@ -98,6 +98,8 @@ git add .
 git commit -m "注释"
 # 将缓存中的文件上传到GitHub
 git push origin master
+# 取消某个文件的版本控制
+git rm -r --cached "要取消版本控制的文件或文件夹"
 ```
 
 **以上就是git链接仓库的方法**
