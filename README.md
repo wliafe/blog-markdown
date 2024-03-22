@@ -10,6 +10,10 @@ wliafe的博客，欢迎光临
 
 [Github](https://github.com/)，[Gitee](https://gitee.com/)，[CSDN](https://www.csdn.net/)，[ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[聚联AI](https://chat.julianwl.com/)
 
+## 机器学习
+
+[PyTorch](https://pytorch.org/)
+
 ## 前端
 
 [Vue](https://cn.vuejs.org/)，[Vite](https://cn.vitejs.dev/)，[Vue Router](https://router.vuejs.org/zh/)，[Pinia](https://pinia.vuejs.org/zh/)，[Element Plus](https://element-plus.gitee.io/zh-CN/)，[Axios](https://www.axios-http.cn/)，[Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
