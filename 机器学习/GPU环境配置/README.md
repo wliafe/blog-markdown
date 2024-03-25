@@ -33,3 +33,9 @@
 将下载好的cudnn中的文件解压到cuda的安装目录下，GPU环境就配置好了
 
 接下来只需在conda环境中下载相应的TensorFlow版本就可以使用GPU运行机器学习程序了
+
+# pytorch使用GPU
+
+在[官方网站](https://pytorch.org/)如下图页面，运行显示的命令能够更好的适配你的GPU
+
+![](5.png)
