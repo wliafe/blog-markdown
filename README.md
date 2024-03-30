@@ -6,6 +6,8 @@
 
 wliafe的博客，欢迎光临
 
+# 常用链接
+
 ## AI
 
 [ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[聚联AI](https://chat.julianwl.com/)，[Kimi.ai - 帮你看更大的世界](https://kimi.moonshot.cn/)，[MindShow(PPT自动生成工具)](https://mindshow.fun/)
