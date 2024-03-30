@@ -8,7 +8,7 @@ wliafe的博客，欢迎光临
 
 # 个人常用网站
 
-[Github](https://github.com/)，[Gitee](https://gitee.com/)，[CSDN](https://www.csdn.net/)，[ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[聚联AI](https://chat.julianwl.com/)
+[Github](https://github.com/)，[Gitee](https://gitee.com/)，[CSDN](https://www.csdn.net/)，[ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[Kimi.ai - 帮你看更大的世界](https://kimi.moonshot.cn/)
 
 ## 机器学习
 
@@ -28,7 +28,7 @@ wliafe的博客，欢迎光临
 
 ## 资源
 
-[Github](https://github.com/)，[Gitee](https://gitee.com/)，[ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[聚联AI](https://chat.julianwl.com/)，[MindShow(PPT自动生成工具)](https://mindshow.fun/)，[阿里云盘](https://www.aliyundrive.com/)，[夸克网盘](https://pan.quark.cn/)，[巴法云](https://cloud.bemfa.com/)
+[Github](https://github.com/)，[Gitee](https://gitee.com/)，[ChatGPT](https://chat.openai.com/)，[文心一言](https://yiyan.baidu.com/)，[聚联AI](https://chat.julianwl.com/)，[MindShow(PPT自动生成工具)](https://mindshow.fun/)，[阿里云盘](https://www.aliyundrive.com/)，[夸克网盘](https://pan.quark.cn/)，[巴法云](https://cloud.bemfa.com/)[Kimi.ai - 帮你看更大的世界](https://kimi.moonshot.cn/)
 
 [CSDN](https://www.csdn.net/)，[稀土掘金](https://juejin.cn/)，[知乎](https://www.zhihu.com/)，[博客园](https://www.cnblogs.com/)，[菜鸟教程](https://www.runoob.com/)，[中文开源技术交流社区](https://www.oschina.net/)，[51CTO博客](https://blog.51cto.com/)，[阿里云盘吧](https://www.alipanba.com/)
 
