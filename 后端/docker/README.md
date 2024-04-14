@@ -17,3 +17,23 @@ docker cp 本地文件路径 ID全称:容器路径
 ```bash
 docker cp ID全称:容器路径 本地文件路径
 ```
+
+# docker容器创建
+
+## docker容器随docker启动而启动
+
+```bash
+docker  --restart=always
+```
+
+# Redis容器创建(最简单)
+
+```bash
+docker run --name env-redis --restart=always -d -p 6379:6379 redis --requirepass Redis.123
+```
+
+# Mysql容器创建(最简单)
+
+```bash
+docker run --name env-mysql --restart=always -e MYSQL_ROOT_PASSWORD=Mysql.123 -d -p 3306:3306 mysql
+```
