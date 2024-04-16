@@ -37,3 +37,9 @@ docker run --name env-redis --restart=always -d -p 6379:6379 redis --requirepass
 ```bash
 docker run --name env-mysql --restart=always -e MYSQL_ROOT_PASSWORD=Mysql.123 -d -p 3306:3306 mysql
 ```
+
+# Nginx容器创建
+
+```bash
+docker run --name env-nginx --restart=always -d -p 8080:80 nginx:stable-perl
+```
