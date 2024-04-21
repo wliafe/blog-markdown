@@ -43,3 +43,9 @@ docker run --name env-mysql --restart=always -e MYSQL_ROOT_PASSWORD=Mysql.123 -d
 ```bash
 docker run --name env-nginx --restart=always -d -p 8080:80 nginx:stable-perl
 ```
+
+# LobeChat容器创建（内部包含Ollama）
+
+```bash
+docker run --name env-lobechat -e OLLAMA_PROXY_URL=http://127.0.0.1:11434/v1 -d -p 3210:3210 lobehub/lobe-chat
+```
