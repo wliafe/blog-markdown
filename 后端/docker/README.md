@@ -49,3 +49,11 @@ docker run --name env-nginx -d -p 8080:80 nginx:stable-perl
 ```bash
 docker run --name env-lobechat -e OLLAMA_PROXY_URL=http://host.docker.internal:11434/v1 -d -p 3210:3210 lobehub/lobe-chat
 ```
+
+# dify容器创建
+
+```bash
+git clone https://github.com/langgenius/dify.git
+cd dify/docker
+docker compose up -d
+```
