@@ -34,7 +34,7 @@ wliafe的博客，欢迎光临
 
 [CSDN](https://www.csdn.net/)，[稀土掘金](https://juejin.cn/)，[知乎](https://www.zhihu.com/)，[博客园](https://www.cnblogs.com/)，[菜鸟教程](https://www.runoob.com/)，[中文开源技术交流社区](https://www.oschina.net/)，[51CTO博客](https://blog.51cto.com/)，[阿里云盘吧](https://www.alipanba.com/)
 
-[91美剧网](https://91mjw.tv/)，[低端影视](https://ddys.site/)，[恩山无线论坛](https://www.right.com.cn/)，[知网](https://lib.bimuchachong.com/)，[资源猫](https://www.ziyuanm.com/)，[大数据导航](https://hao.199it.com/)，[虫部落](https://search.chongbuluo.com/)，[猎手导航搜索](http://www.lsdhss.com/)
+[91美剧网](https://91mjw.tv/)，[低端影视](https://ddys.site/)，[恩山无线论坛](https://www.right.com.cn/)，[知网](https://b.wenxian.shop/)，[资源猫](https://www.ziyuanm.com/)，[大数据导航](https://hao.199it.com/)，[虫部落](https://search.chongbuluo.com/)，[猎手导航搜索](http://www.lsdhss.com/)
 
 [电脑店](https://u.diannaodian.com/)，[脚本之家](https://www.bookstack.cn/)，[绿色资源网](http://www.downcc.com/)，[IT天空](https://www.itsk.com/)，[DLL下载站](http://www.dllxz.com/)，[Windows系统dll文件下载与修复](https://www.wenjian.net/)，[MSDN](https://msdn.itellyou.cn/)，[Linux镜像](https://mirrors.ustc.edu.cn/help/index.html)
 
