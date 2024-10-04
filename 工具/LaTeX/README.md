@@ -1,5 +1,7 @@
 # Tex Live下载与安装
 
+[清华镜像CTAN文档](https://mirrors.tuna.tsinghua.edu.cn/help/CTAN/)
+
 ## 下载
 
 [官网下载](https://www.tug.org/texlive/acquire-netinstall.html)
