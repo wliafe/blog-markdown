@@ -43,7 +43,9 @@ tlmgr update --all --repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/system
 
 # LaTeX学习与使用
 
-[LaTeX教程](https://www.latexstudio.net/LearnLaTeX/)
+latex文档[LaTeX教程](https://www.latexstudio.net/LearnLaTeX/)
+
+latex模板[Overleaf](https://www.overleaf.com/)，可以学习别人的模板格式。
 
 ## LaTeX常用宏包
 
