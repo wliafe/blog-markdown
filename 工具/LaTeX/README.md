@@ -16,6 +16,8 @@
 
 修改设置auto Clean为onBuild
 
+修改pdf viewer为browser
+
 在recipes设置中的json文件中添加下面这段。
 
 ```json
