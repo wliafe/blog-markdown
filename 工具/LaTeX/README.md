@@ -81,8 +81,6 @@ C:/Users/Administrator/texmf
 
 注：latex只搜索\tex\latex目录下的文件，所以需要将文件放在该目录下。
 
-最后使用texhash命令更新数据库。
-
 ### 添加texlive的包搜索路径法
 
 texlive 有两个配置文件，一个是全局配置文件一个是用户配置文件，可以通过输入下面命令查看配置文件的所在位置。
