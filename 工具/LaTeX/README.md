@@ -16,15 +16,15 @@
 
 修改设置auto Clean为onBuild
 
-在recipes设置中的json文件中添加下面这段。
+在recipes设置中的json文件下面这段作为第一段。
 
 ```json
 {
-    "name": "pdflatex",
+    "name": "latexmk (lualatex)",
     "tools": [
-        "pdflatex"
+        "lualatexmk"
     ]
-},        
+},       
 ```
 
 # Tex Live tlmgr管理器
