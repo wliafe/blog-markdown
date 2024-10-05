@@ -16,8 +16,6 @@
 
 修改设置auto Clean为onBuild
 
-修改pdf viewer为browser
-
 在recipes设置中的json文件中添加下面这段。
 
 ```json
@@ -42,3 +40,17 @@ tlmgr update --self --repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/syste
 ```bash
 tlmgr update --all --repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
 ```
+
+# LaTeX学习与使用
+
+[LaTeX教程](https://www.latexstudio.net/LearnLaTeX/)
+
+## LaTeX常用宏包
+
+ctex：中文格式宏包
+
+geometry：页面设置宏包
+
+titlesec：标题设置宏包
+
+amsmath：数学公式宏包
